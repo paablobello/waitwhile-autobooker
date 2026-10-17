@@ -1,0 +1,34 @@
+name = "waitwhile-autobooker"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[triggers]
+crons = ["* * * * *"]
+
+[vars]
+# Location slug from waitwhile.com/locations/<slug>, and its time zone.
+LOCATION = "chromehearts"
+TIMEZONE = "America/New_York"
+# Name shown in push alerts.
+LABEL = "Chrome Hearts"
+SERVICE_ID = "WHmjBONC1Mcf8VSqjWar"
+SERVICE_DURATION = "1800"
+DATES = "2026-10-21,2026-10-22,2026-10-23,2026-10-24,2026-10-25"
+NTFY_TOPIC = "pick-a-long-random-topic"
+AUTO_BOOK = "true"
+# Keep a pre-solved captcha ready during these store-local hours (~1 solve/min).
+PREWARM_HOURS = "10-22"
+PARTY_SIZE = "2"
+PERSON_NAME = "Your Name"
+PERSON_EMAIL = "you@example.com"
+PERSON_PHONE = "+1XXXXXXXXXX"
+PERSON_GUESTS = "Guest Name"
+# Secrets: wrangler secret put CAPMONSTER_KEY | TWOCAPTCHA_KEY | PROBE_TOKEN | HC_URL
+
+# Filled in by `wrangler kv namespace create STATE`
+[[kv_namespaces]]
+binding = "STATE"
+id = "<your KV namespace id>"
+
+[observability]
+enabled = true

@@ -1,0 +1,30 @@
+{
+  "location": "chromehearts",
+  "service_id": "WHmjBONC1Mcf8VSqjWar",
+  "service_name": "Personal Shopping",
+  "party_size": 1,
+
+  "wanted": {
+    "dates": [],
+    "weekdays": [],
+    "earliest": "11:00",
+    "latest": "18:30"
+  },
+
+  "poll_seconds": 20,
+  "burst_on_half_hours": true,
+
+  "auto_book": true,
+  "submit": true,
+
+  "ntfy_topic": "",
+
+  "person": {
+    "name": "NOMBRE APELLIDO",
+    "email": "tu@email.com",
+    "phone": "+1XXXXXXXXXX",
+    "address": "",
+    "guests": "N/A",
+    "notes": ""
+  }
+}

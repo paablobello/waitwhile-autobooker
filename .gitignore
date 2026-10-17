@@ -1,0 +1,8 @@
+config.json
+booked.json
+*.log
+__pycache__/
+.wrangler/
+.probe_token
+node_modules/
+.dev.vars

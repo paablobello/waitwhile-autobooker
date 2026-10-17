@@ -1,0 +1,25 @@
+{
+  "location": "waitwhile-demo",
+  "service_id": "",
+  "service_name": "Onboarding Consultation",
+  "party_size": 1,
+  "wanted": {
+    "dates": [],
+    "weekdays": [],
+    "earliest": "11:00",
+    "latest": "18:30"
+  },
+  "poll_seconds": 20,
+  "burst_on_half_hours": true,
+  "auto_book": false,
+  "submit": false,
+  "ntfy_topic": "",
+  "person": {
+    "name": "Test Prueba",
+    "email": "test@example.com",
+    "phone": "+12125550100",
+    "address": "",
+    "guests": "N/A",
+    "notes": ""
+  }
+}
